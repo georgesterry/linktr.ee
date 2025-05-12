@@ -1,0 +1,86 @@
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: solid 3px lavender;
+    animation: bounce 2s infinite;
+    
+}
+.Instagram{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.Snapchat{
+    margin-top: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Instagramlink{
+    display: inline-block;
+    text-align:center;
+    margin-bottom: 5px;
+    border: solid 1px black;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 19px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.Snapchatlink{
+   display: inline-block;
+    margin-top: 5px;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 5px 5px 5px 5px ;
+    padding:5px 22px 5px 22px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.Tiktoklink{
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+    color: aliceblue;
+    
+
+}
+body{
+    background:linear-gradient( to left,rgb(96, 53, 145),rgb(241, 132, 214));
+}
+
+@keyframes bounce{
+    0%{transform:translateX(0)}
+    25%{transform:translateX(-10px)}
+    50%{transform:translateY(10px)}
+    100%{transform:translateX(0)}
+}
+h2{
+    color: rgb(39, 40, 39) ;
+    font-weight: bold;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h3{
+    margin-top: -10px;
+    color:rgb(245, 245, 245);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:italic
+}
+h4{
+    margin-top:-10px ;
+}
+a:hover{
+    transform:scale(1.05);
+}
